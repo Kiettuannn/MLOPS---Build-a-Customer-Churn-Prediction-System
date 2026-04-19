@@ -3,4 +3,7 @@ __pycache__/
 .ipynb_checkpoints/
 *.pyc
 
+# Ignore data files but allow DVC tracking
 data/
+!data/**/*.dvc
+!data/.gitkeep
